@@ -1,0 +1,32 @@
+.sidebar {
+  width: 220px;
+  background-color: var(--color-primary);
+  height: 100%;
+}
+
+.label {
+  font-size: 0.875rem;
+  color: white;
+  text-transform: uppercase;
+  padding: 1rem;
+  margin-top: 20px;
+}
+
+.link {
+  font-size: 0.875rem;
+  color: white;
+  padding: 0.5rem 1rem;
+  font-weight: 400;
+  text-decoration: none;
+  display: block;
+  transition: all .2s;
+  border-left: 3px solid transparent;
+}
+
+.link:hover {
+  color: var(--color-secondary);
+}
+
+.link i {
+  margin-right: 10px;
+}
