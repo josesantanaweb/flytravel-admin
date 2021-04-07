@@ -13,7 +13,7 @@ const Select = ({ label, placeholder, onChange, options}) => {
       >
         {
           options.map((option, i) => (
-            <option key={option + 1} value={option.values}>{option.label}</option>
+            <option key={option.value} value={option.values}>{option.label}</option>
           ))
         }
       </select>
