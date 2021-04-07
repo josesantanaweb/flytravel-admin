@@ -4,6 +4,7 @@ import { BrowserRouter as Router, Switch, Route } from 'react-router-dom';
 import Layout from './components/Layout/Layout';
 import Payments from './components/Payments/Payments';
 import Profile from './components/Profile/Profile';
+import Passengers from './components/Passengers/Passengers';
 import './App.css';
 
 const App = () => {
@@ -11,8 +12,9 @@ const App = () => {
     <Router>
       <Switch>
         <Layout>
-          <Route path="/payments" component={Payments}/>
           <Route path="/profile" component={Profile}/>
+          <Route path="/passengers" component={Passengers}/>
+          <Route path="/payments" component={Payments}/>
         </Layout>
       </Switch>
     </Router>

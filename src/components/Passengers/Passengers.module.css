@@ -1,0 +1,42 @@
+.passengers {
+  padding: 20px;
+  height: 100%;
+}
+
+.title {
+  color: var(--color-primary);
+  font-size: 18px;
+  margin-bottom: 20px;
+}
+
+.container {
+  background-color: white;
+  border-radius: 5px;
+  width: 100%;
+  height: calc(100% - 50px);
+}
+
+.card {
+  padding: 20px;
+}
+
+.add {
+  display: flex;
+  align-items: center;
+  margin-bottom: 20px;
+  cursor: pointer;
+}
+
+.add h3 {
+  margin-left: 10px;
+  color: var(--color-primary);
+  font-size: 14px;
+}
+
+.row {
+  display: grid;
+  grid-template-columns: repeat(3, 300px);
+  grid-gap: 20px;
+  align-items: flex-end;
+  margin-bottom: 20px;
+}
