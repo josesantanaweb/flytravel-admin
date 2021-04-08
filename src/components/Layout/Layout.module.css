@@ -1,11 +1,4 @@
-
-.app {
-  display: grid;
-  height: 100vh;
-  grid-template-rows: 60px 1fr;
-}
-
-.content {
-  display: grid;
-  grid-template-columns: 240px 1fr;
+.main {
+  margin-left: 240px;
+  height: 100%;
 }

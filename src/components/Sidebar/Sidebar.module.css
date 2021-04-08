@@ -1,7 +1,16 @@
 .sidebar {
-  width: 100%;
+  width: 240px;
   background-color: var(--color-primary);
   height: 100%;
+  position: fixed;
+}
+
+.brand {
+  height: 60px;
+  display: flex;
+  background: white;
+  align-items: center;
+  padding-left: 1.875rem;
 }
 
 .label {

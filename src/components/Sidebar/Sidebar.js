@@ -4,7 +4,10 @@ import styles from './Sidebar.module.css';
 
 const Sidebar = () => {
   return (
-    <div className={styles.sidebar}>
+    <section className={styles.sidebar}>
+      <div className={styles.brand}>
+        <img src="img/logo.png" alt="logo"/>
+      </div>
       <div className={styles.inner}>
         <p className={styles.label}>Menu</p>
         <Link to="/reservations"  className={styles.link}>
@@ -28,7 +31,7 @@ const Sidebar = () => {
           Metodos de Pagos
         </Link>
       </div>
-    </div>
+    </section>
   )
 }
 

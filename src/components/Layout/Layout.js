@@ -7,13 +7,11 @@ import Navbar from '../Navbar/Navbar';
 const Layout = ({children}) => {
   return (
     <div className={styles.app}>
-      <Navbar />
-      <div className={styles.content}>
-        <Sidebar />
-        <div>
-          {children}
-        </div>
-      </div>
+      <Sidebar />
+      <section className={styles.main}>
+        <Navbar />
+        {children}
+      </section>
     </div>
   )
 }
