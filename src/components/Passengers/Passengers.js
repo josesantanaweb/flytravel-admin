@@ -3,6 +3,7 @@ import { FaPlus } from "react-icons/fa";
 import Input from "../UI/Input/Input"
 import Select from "../UI/Select/Select"
 import Button from "../UI/Button/Button"
+import Radio from "../UI/Radio/Radio"
 
 import styles from './Passengers.module.css';
 
@@ -41,6 +42,10 @@ const Passengers = () => {
           <div className={styles.row}>
             <Input label="Direccion" placeholder="Ingresa la Direccion" />
             <Input label="Numero de Documento" placeholder="Ingresa el Numero de Documento" />
+            <div class={styles.radiogroup}>
+              <Radio label="Femenino" id="gender1" name="gender"/>
+              <Radio label="Masculino" id="gender2" name="gender"/>
+            </div>
           </div>
           <div>
             <Button type="submit" label="Guardar"/>
