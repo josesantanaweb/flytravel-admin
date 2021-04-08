@@ -13,7 +13,6 @@
   background-color: white;
   border-radius: 5px;
   width: 100%;
-  height: calc(100% - 50px);
 }
 
 .card {
@@ -39,4 +38,9 @@
   grid-gap: 20px;
   align-items: flex-end;
   margin-bottom: 20px;
+}
+
+.radiogroup {
+  display: flex;
+  align-items: center;
 }
