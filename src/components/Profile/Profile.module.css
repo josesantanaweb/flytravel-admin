@@ -1,0 +1,79 @@
+.profile {
+  padding: 20px;
+  height: 100%;
+}
+
+.title {
+  color: var(--color-primary);
+  font-size: 18px;
+  margin-bottom: 20px;
+}
+
+.container {
+  background-color: white;
+  border-radius: 5px;
+  width: 100%;
+}
+
+.card {
+  padding: 20px;
+}
+
+.title {
+  display: flex;
+  align-items: center;
+  margin-bottom: 20px;
+  cursor: pointer;
+}
+
+.title h3 {
+  margin-left: 10px;
+  color: var(--color-primary);
+  font-size: 14px;
+}
+
+.avatar {
+  position: relative;
+  width: 100px;
+  margin-bottom: 20px;
+}
+
+.avatar img {
+  width: 100px;
+  height: 100px;
+  border-radius: 100px;
+}
+
+.avatar label {
+  width: 25px;
+  height: 25px;
+  background-color: var(--color-primary);
+  border-radius: 25px;
+  color: white;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: absolute;
+  bottom: 0px;
+  right: 5px;
+}
+
+.avatar input[type=file] {
+  display: none;
+  position: absolute;
+}
+
+.row {
+  display: grid;
+  grid-template-columns: repeat(2, 300px);
+  grid-gap: 20px;
+  align-items: flex-end;
+  margin-bottom: 20px;
+}
+
+.rowtwo {
+  display: grid;
+  grid-template-columns: 300px;
+  margin-bottom: 20px;
+}
