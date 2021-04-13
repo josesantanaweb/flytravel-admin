@@ -1,0 +1,175 @@
+.reservations {
+  padding: 20px;
+  height: 100%;
+}
+
+.title {
+  color: var(--color-primary);
+  font-size: 18px;
+  margin-bottom: 20px;
+}
+
+.container {
+  width: 100%;
+}
+
+.card {
+  border-radius: 5px;
+  padding: 20px;
+  margin-bottom: 20px;
+  background-color: white;
+}
+
+.cardheader {
+  padding-bottom: 10px;
+  border-bottom: 1px solid var(--color-gray-light);
+  margin-bottom: 20px;
+}
+
+.cardheader h4 {
+  color: var(--color-primary);
+  font-size: 16px;
+}
+
+.name {
+  padding-bottom: 10px;
+  border-bottom: 1px solid var(--color-gray-light);
+  margin-bottom: 10px;
+}
+
+.name p {
+  color: var(--color-text);
+  font-size: 14px;
+}
+
+.name p span{
+  color: var(--color-secondary);
+  margin-left: 10px;
+}
+
+.flight {
+  padding: 10px;
+  border-radius: 5px;
+  border: 1px solid var(--color-gray-light);
+  margin-bottom: 10px;
+}
+
+.round {
+  background-color: var(--color-three);
+  text-transform: uppercase;
+  color: white;
+  font-weight: 300;
+  padding: 5px 10px;
+  display: inline-block;
+  margin-bottom: 10px;
+  font-size: 14px;
+}
+
+.trip {
+  text-transform: uppercase;
+  background-color: var(--color-secondary);
+  color: white;
+  font-weight: 300;
+  padding: 5px 10px;
+  display: inline-block;
+  margin-bottom: 10px;
+  font-size: 14px;
+}
+
+.route {
+  color: var(--color-text);
+  font-size: 14px;
+  margin-bottom: 10px;
+}
+
+.row {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.scales {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 40%;
+}
+
+.hour {
+  font-size: 16px;
+  color: var(--color-primary);
+  font-weight: 600;
+}
+
+.abbr {
+  font-size: 16px;
+  text-transform: uppercase;
+  color: var(--color-gray);
+  font-weight: 600;
+}
+
+.city {
+  font-size: 14px;
+  color: var(--color-gray);
+}
+
+.stops {
+  position: relative;
+  display: flex;
+  justify-content: space-between;
+}
+
+.stops:after {
+  content: '';
+  position: absolute;
+  width: 100%;
+  top: 50%;
+  height: 1px;
+  background-color: var(--color-gray-light);
+}
+
+.stop {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 0 20px;
+}
+
+.stop p {
+  font-size: 14px;
+  margin-bottom: 5px;
+}
+
+.stop img {
+  width: 40px;
+}
+
+.stop span {
+  position: relative;
+  z-index: 10;
+  width: 15px;
+  margin-bottom: 10px;
+  height: 15px;
+  display: block;
+  border-radius: 15px;
+  background-color: white;
+  border: 1px solid var(--color-gray-light);
+}
+
+.duration {
+  text-align: center;
+}
+
+.duration p {
+  font-size: 14px;
+  color: var(--color-text);
+}
+
+.class {
+  text-align: center;
+}
+
+.class p {
+  font-size: 14px;
+  color: var(--color-text);
+}
