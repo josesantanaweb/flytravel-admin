@@ -17,7 +17,6 @@ const App = () => {
           <Route exact path="/" component={Reservations}/>
           <Route exact path="/history" component={History}/>
           <Route exact path="/profile" component={Profile}/>
-          <Route exact path="/passengers" component={Passengers}/>
           <Route exact path="/payments" component={Payments}/>
         </Layout>
       </Switch>
