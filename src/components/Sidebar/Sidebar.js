@@ -10,7 +10,7 @@ const Sidebar = () => {
       </div>
       <div className={styles.inner}>
         <p className={styles.label}>Menu</p>
-        <Link to="/reservations"  className={styles.link}>
+        <Link to="/"  className={styles.link}>
           <i className="fa fa-suitcase"></i>
           Mis Reservas
         </Link>
