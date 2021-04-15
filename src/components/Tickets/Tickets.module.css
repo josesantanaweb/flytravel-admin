@@ -1,0 +1,98 @@
+.profile {
+  padding: 20px;
+  height: 100%;
+}
+
+.title {
+  color: var(--color-primary);
+  font-size: 18px;
+  margin-bottom: 20px;
+}
+
+.container {
+  background-color: white;
+  border-radius: 5px;
+  width: 100%;
+}
+
+.card {
+  padding: 20px;
+}
+
+.title {
+  display: flex;
+  align-items: center;
+  margin-bottom: 20px;
+  cursor: pointer;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  margin-bottom: 2rem;
+}
+
+.header h3 {
+  color: var(--color-primary);
+  font-size: 16px;
+}
+
+.active {
+  color: var(--color-success);
+}
+
+.file {
+  display: flex;
+  align-items: center;
+  color: var(--color-gray);
+}
+
+.file:hover {
+  color: var(--color-primary);
+}
+
+.row {
+  display: grid;
+  grid-template-columns: repeat(2, 300px);
+  justify-content: space-between;
+  align-items: flex-end;
+  margin-bottom: 10px;
+}
+
+.footer {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 50px;
+}
+
+.document label {
+  display: flex;
+  outline: none;
+  font-size: 14px;
+  color: var(--color-text);
+  border: 1px solid var(--color-gray);
+  height: 35px;
+  padding-left: 10px;
+  width: 100%;
+  border-radius: 4px;
+  justify-content: flex-end;
+}
+
+.document span {
+  outline: none;
+  font-size: 12px;
+  outline: none;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  padding: 10px;
+  background-color: var(--color-gray);
+  cursor: pointer;
+}
+
+.document input[type="file"] {
+  display: none;
+  position: absolute;
+}

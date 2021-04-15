@@ -10,9 +10,17 @@ const Sidebar = () => {
       </div>
       <div className={styles.inner}>
         <p className={styles.label}>Menu</p>
+        <a href="https://flytravelgoo.solutionzc.com/" className={styles.link}>
+          <i className="fa fa-plane"></i>
+          Buscar Vuelo
+        </a>
         <Link to="/"  className={styles.link}>
           <i className="fa fa-suitcase"></i>
           Mis Reservas
+        </Link>
+        <Link to="/tickets"  className={styles.link}>
+          <i className="fa fa-ticket"></i>
+          Boletos Emitidos
         </Link>
         <Link to="/history"  className={styles.link}>
           <i className="fa fa-history"></i>
@@ -21,14 +29,6 @@ const Sidebar = () => {
         <Link to="/profile"  className={styles.link}>
           <i className="fa fa-user"></i>
           Perfil
-        </Link>
-        <Link to="/passengers"  className={styles.link}>
-          <i className="fa fa-users"></i>
-          Pasajeros
-        </Link>
-        <Link to="/payments"  className={styles.link}>
-          <i className="fa fa-credit-card-alt"></i>
-          Metodos de Pagos
         </Link>
       </div>
     </section>

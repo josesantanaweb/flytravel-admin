@@ -3,7 +3,7 @@
   --color-secondary: #fe7700;
   --color-bg-default: #F5F5F5;
   --color-three: #dc000f;
-  --color-gray: #b7b3b3;
+  --color-gray: #dddddd;
   --color-gray-light: #F5F5F5;
   --color-gray-dark: #5c5c5c;
   --color-text: #B7B3B3;
@@ -496,4 +496,25 @@ input[type=text]:-moz-placeholder {
 
 .pl-5 {
   padding-left: 3rem !important;
+}
+
+table {
+  border-collapse: collapse;
+  width: 100%;
+}
+
+table td, table th {
+  border: 1px solid #ddd;
+  padding: 8px;
+  font-size: 14px;
+}
+
+table th {
+  padding-top: 8px;
+  font-weight: 600;
+  padding-bottom: 8px;
+  text-align: left;
+  background-color: var(--color-gray-light);
+  color: var(--color-text);
+  font-size: 14px;
 }
